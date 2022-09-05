@@ -4,6 +4,7 @@ import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.time.LocalDate;
@@ -12,7 +13,7 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@SpringBootTest
+@DataJpaTest
 class JpaStartiApplicationTests {
 
     @Autowired
@@ -30,11 +31,11 @@ class JpaStartiApplicationTests {
         studentRepository.save(std1);
 
         List<Student> lst = studentRepository.findAll(); //find all students
-        assertEquals(3, lst.size());
+        assertEquals(1, lst.size());
 
         studentRepository.delete(std1);
         lst = studentRepository.findAll();
-        assertEquals(2, lst.size());
+        assertEquals(0, lst.size());
 
         //find by ID
         Optional<Student> opt3 = studentRepository.findById(1);

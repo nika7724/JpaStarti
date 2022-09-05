@@ -3,3 +3,10 @@ spring.datasource.username=nika0147
 spring.datasource.password=Sebtoby0121
 
 spring.jpa.hibernate.ddl-auto=create-drop
+
+
+spring.datasource.url=${jdbcurl}
+spring.datasource.username=${username}
+spring.datasource.password=${password}
+
+spring.jpa.hibernate.ddl-auto=create-drop
