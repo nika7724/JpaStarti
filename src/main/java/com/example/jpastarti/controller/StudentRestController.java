@@ -3,6 +3,7 @@ package com.example.jpastarti.controller;
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -10,6 +11,7 @@ import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.List;
 
+@CrossOrigin(value ="*")
 @RestController
 public class StudentRestController {
 
