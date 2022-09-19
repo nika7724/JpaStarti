@@ -1,4 +1,4 @@
-package com.example.jpastarti;
+/*package com.example.jpastarti;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -45,9 +45,9 @@ class JpaStartiApplicationTests {
 
     }
 
-}
+}*/
 
-/*package com.example.jpastarti;
+package com.example.jpastarti;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -102,4 +102,4 @@ class JpaStartiApplicationTests {
 
     }
 
-}*/
+}

@@ -1,4 +1,4 @@
-package com.example.jpastarti.model;
+/*package com.example.jpastarti.model;
 
 import org.springframework.stereotype.Component;
 
@@ -49,9 +49,9 @@ public class Student {
     public void setBornTime(LocalTime bornTime) {
         this.bornTime = bornTime;
     }
-}
+}*/
 
-/*package com.example.jpastarti.model;
+package com.example.jpastarti.model;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -101,4 +101,4 @@ public class Student {
         this.bornTime = bornTime;
     }
 }
-*/
+

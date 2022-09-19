@@ -1,4 +1,4 @@
-package com.example.jpastarti.config;
+/*package com.example.jpastarti.config;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -31,11 +31,11 @@ public class StartAndSave implements CommandLineRunner {
         studentRepository.save(std2);
 
     }
-}
+}*/
 
 
 
-/*package com.example.jpastarti.config;
+package com.example.jpastarti.config;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -64,4 +64,4 @@ public class StartAndSave implements CommandLineRunner {
         studentRepository.save(std2);
 
     }
-}*/
+}

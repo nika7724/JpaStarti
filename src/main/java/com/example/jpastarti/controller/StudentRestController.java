@@ -1,4 +1,4 @@
-package com.example.jpastarti.controller;
+/*package com.example.jpastarti.controller;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -36,9 +36,9 @@ public class StudentRestController {
         return lst;
     }
 
-}
+}*/
 
-/*package com.example.jpastarti.controller;
+package com.example.jpastarti.controller;
 
 import com.example.jpastarti.model.Student;
 import com.example.jpastarti.reposidory.StudentRepository;
@@ -76,4 +76,4 @@ public class StudentRestController {
         return lst;
 
     }
-}*/
+}
